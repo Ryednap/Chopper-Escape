@@ -33,9 +33,9 @@ def has_collided(elem1, elem2):
     return False
 
 
-class ChopperScape(Env, ABC):
+class GameEnvironment(Env, ABC):
     def __init__(self):
-        super(ChopperScape, self).__init__()
+        super(GameEnvironment, self).__init__()
 
         # Define a 2-D observation space
         self.chopper = None

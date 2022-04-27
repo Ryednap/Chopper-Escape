@@ -8,10 +8,10 @@ import random
 from gym import Env, spaces
 import time
 
-from ChopperScape import ChopperScape
+from GameEnvironment import GameEnvironment
 
 
-env = ChopperScape()
+env = GameEnvironment()
 obs = env.reset()
 
 while True:
